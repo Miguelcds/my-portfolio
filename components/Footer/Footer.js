@@ -6,7 +6,7 @@ import {Button} from "../Button/Button";
 export const Footer = () => `
 
 
-<h2> <a href="#"> Contact </a> </h2>
+<h2> <a href="mailto:miguel-cds@hotmail.com"> Contact </a> </h2>
 <div>
 ${Button("/public/twitter.png", "Twitter")}
 ${Button("/public/githubb.png", "GitHub")}
