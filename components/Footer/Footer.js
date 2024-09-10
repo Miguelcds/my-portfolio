@@ -8,9 +8,9 @@ export const Footer = () => `
 
 <h2> <a href="mailto:miguel-cds@hotmail.com"> Contact </a> </h2>
 <div>
-${Button("/public/twitter.png", "Twitter")}
-${Button("/public/githubb.png", "GitHub")}
-${Button("/public/linkedin.png", "LinkedIn")}
-${Button("/public/telegram.png", "Telegram")}
+${Button("/twitter.png", "Twitter")}
+${Button("/githubb.png", "GitHub")}
+${Button("/linkedin.png", "LinkedIn")}
+${Button("/telegram.png", "Telegram")}
 </div>
 `;
