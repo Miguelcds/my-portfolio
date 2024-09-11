@@ -19,6 +19,13 @@ footer a {
     footer {
         padding: 0 2rem;
         gap: 2rem;
+        
+    }
+}
+
+@media (max-width:500px ) {
+    footer{
+        margin-top: 200px;
     }
 }
 

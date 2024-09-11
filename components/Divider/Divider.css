@@ -5,3 +5,15 @@
     display: block;
     margin: 1rem 0;
 }
+
+@media (max-width:700px ) {
+    .divider{
+       margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .divider{
+        display: none;
+    }
+}
