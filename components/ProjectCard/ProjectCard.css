@@ -1,41 +1,87 @@
 .project-card {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 0.85rem;
+  overflow: hidden;
+  transition: border-color 0.25s ease, transform 0.25s ease;
 }
 
-.project-card img{
-    width: 100%;
-    height: 250px;
-    border-radius: 0.4rem;
-    object-fit: cover;
+.project-card:hover {
+  border-color: var(--highlight);
+  transform: translateY(-4px);
+}
+
+.project-card > img {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  display: block;
 }
 
 .project-card > .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.25rem;
+}
+
+.project-card > .header h2 {
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .project-card > .header > div {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.project-card > .header > div > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  background: var(--surface-2);
+  transition: border-color 0.2s;
+}
+
+.project-card > .header > div > a:hover {
+  border-color: var(--highlight);
 }
 
 .project-card > .header > div > a > img {
-    width: 20px;
-    height: 20px;
-    filter: invert(90%);
-    transition: all 0.3s ease-in-out;
+  width: 14px;
+  height: 14px;
+  filter: invert(90%);
+  object-fit: contain;
+}
+
+body.light .project-card > .header > div > a > img {
+  filter: invert(15%);
 }
 
 .project-card > .detail {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0 1.25rem 1.25rem;
+}
+
+.project-card > .detail > p {
+  color: var(--text-muted);
+  line-height: 1.6;
+  font-size: 0.88rem !important;
 }
 
 .project-card > .detail > .tech {
-    color: var(--highlight);
-  }
+  font-size: 0.78rem !important;
+  font-weight: 600;
+  color: var(--highlight);
+  letter-spacing: 0.5px;
+}
