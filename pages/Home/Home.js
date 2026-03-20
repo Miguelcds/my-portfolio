@@ -12,8 +12,8 @@ export const Home = () => {
           <span class="hero-tag">Desarrollador Web Full Stack</span>
           <h1>Joao Miguel<br>Costa Da Silva</h1>
           <p class="hero-desc">
-            Graduado en DAW con experiencia práctica en <strong>Mercanza</strong>.
-            Creo interfaces web modernas, responsivas y eficientes con tecnologías actuales.
+            Proxima Graduacion en DAW con experiencia práctica desallorada en <strong>Mercanza</strong>.
+            Creo interfaces web modernas, responsive y eficientes con tecnologías actuales.
           </p>
           <div class="hero-cta">
             <button class="btn-primary" onclick="document.querySelector('#projectslink').click()">Ver Proyectos</button>
@@ -62,7 +62,7 @@ export const Home = () => {
         <div class="about-text">
           <p class="section-label">Sobre mí</p>
           <h2>Pasión por el desarrollo web</h2>
-          <p>Desarrollador web recién graduado en DAW, actualmente realizando prácticas en <strong>Mercanza</strong>. Me especializo en frontend moderno con React y Angular, con conocimientos en backend y bases de datos.</p>
+          <p>Desarrollador web recién graduado en DAW, actualmente realizando prácticas en <strong>Mercanza</strong>. Me especializo en frontend moderno con React, con conocimientos solidos en backend y bases de datos.</p>
           <p>Orientado a escribir código limpio, accesible y escalable. Siempre aprendiendo y aplicando nuevas tecnologías en proyectos reales.</p>
           <div class="languages">
             <span class="lang-badge">🇪🇸 Español</span>
@@ -75,27 +75,37 @@ export const Home = () => {
             <span class="exp-year">2026</span>
             <h4>Prácticas en Mercanza</h4>
             <p>Desarrollo web en entorno profesional real</p>
+            <p>Procesamiento y limpieza de datos mediante Python y librerías como Pandas
+            <p>Transformación de datos (ETL) para su análisis y visualización</p>
+            <p>Generación de datasets preparados para visualización</p>
+            <p>Creación de dashboards e informes en Power BI</p>
+            <p>Análisis de datos para obtención de insights</p>
           </div>
           <div class="exp-card">
             <span class="exp-year">2024 – 2026</span>
             <h4>DAW – Desarrollo de Aplicaciones Web</h4>
-            <p>Graduado con especialización en tecnologías web modernas</p>
           </div>
           <div class="exp-card">
             <span class="exp-year">2024 – 2026</span>
             <h4>Master - Full Stack Developer</h4>
+            <p>Desarrollo web focalizado a tener unas bases sólidas en JavaScript, HTML y CSS</p>
+            <p>Tambien en Entornos como React y TypeScript</p>
           </div>
         </div>
       </div>
 
     </section>`;
 
-  const track = main.querySelector('.carousel-track');
+  const track = main.querySelector(".carousel-track");
   let position = 0;
   let paused = false;
 
-  track.addEventListener('mouseenter', () => { paused = true; });
-  track.addEventListener('mouseleave', () => { paused = false; });
+  track.addEventListener("mouseenter", () => {
+    paused = true;
+  });
+  track.addEventListener("mouseleave", () => {
+    paused = false;
+  });
 
   function tick() {
     if (!paused) {
