@@ -1,48 +1,82 @@
 nav {
-    height: 10vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 8rem;
-    flex-wrap: wrap;
-  }
-  
-  @media (max-width: 770px) {
-    nav {
-      padding: 0 2rem;
-      margin-bottom: 100px;
-    }
-    nav > h2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-    }
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgba(13, 13, 13, 0.75);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  transition: background-color 0.4s ease;
+}
 
-    nav > ul{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-    }
+body.light nav {
+  background-color: rgba(245, 245, 245, 0.82);
+}
+
+.nav-logo {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--text);
+  transition: opacity 0.2s;
+}
+
+.nav-logo:hover {
+  opacity: 0.7;
+}
+
+.nav-logo span {
+  color: var(--highlight);
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+nav a {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+
+nav > ul > li > a:hover {
+  color: var(--text);
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: var(--text);
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.3rem;
+  transition: transform 0.2s;
+  line-height: 1;
+}
+
+nav button:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  nav {
+    padding: 0 2rem;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    gap: 0.75rem;
   }
-  
+
   nav > ul {
-    display: flex;
-    gap: 3rem;
+    gap: 1.5rem;
   }
-  
-  nav button {
-    background: none;
-    border: none;
-    color: inherit;
-    transform: scale(1.5);
-  }
-  
-  nav a {
-    transition: all 0.3s ease-in-out;
-  }
-  
-  nav a:hover {
-    color: var(--highlight);
-  }
+}
