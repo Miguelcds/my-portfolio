@@ -3,7 +3,7 @@ export const projects = [
         title: "Recipe Hub",
         description: "Aplicación de recetas con React, consumo de TheMealDB API, favoritos con localStorage y diseño responsive",
         image:
-          "./public/RecipeHub.png",
+          "/RecipeHub.png",
         tech: ["React", "HTML5", "CSS3", "JavaScript"],
         github: "https://github.com/Miguelcds/Recipe-Hub.git",
         link: "https://recipehubapp.netlify.app/",
@@ -12,7 +12,7 @@ export const projects = [
         title: "Asignador de Zonas - Bilbao",
         description: "PWA que procesa archivos Excel y asigna automáticamente zonas de Bilbao. Nació de una necesidad real en uno de mis anteriores trabajos",
         image:
-          "./public/PAW.png",
+          "/PAW.png",
         tech: ["HTML5", "CSS3", "JavaScript"],
         github: "https://github.com/Miguelcds/App_AsignadorZonasBilbao.git",
         link: "https://exeldirecciones-jcosta-dev.netlify.app/",
@@ -21,7 +21,7 @@ export const projects = [
         title: "Agenda De Eventos",
         description: "Aplicación web desarrollada con React y Vite para consultar y organizar eventos del centro: charlas, torneos, talleres y excursiones.",
         image:
-          "./public/EventsWeb.png",
+          "/EventsWeb.png",
         tech: ["HTML5", "CSS3", "JavaScript", "React"],
         github: "https://github.com/Miguelcds/Web_Eventos.git",
         link: "https://eventos-by-jcosta.netlify.app/",
@@ -30,7 +30,7 @@ export const projects = [
         title: "Custom Pintarest - Async-Web",
         description: "Es una version custom de Pintarest. Esta centrado en JavaScript asíncrono, consumo de APIs y renderizado dinámico de datos.",
         image:
-          "./public/AsyncWeb.png",
+          "/AsyncWeb.png",
         tech: ["HTML5", "CSS3", "JavaScript"],
         github: "https://github.com/Miguelcds/AsyncWeb-Photos.git",
         link: "https://async-web-jc.netlify.app/",
@@ -48,7 +48,7 @@ export const projects = [
         title: "Easy Hair Booking",
         description: "Sistema de reservas de peluquería full stack en desarrollo activo. Puedes seguir el progreso en GitHub.",
         image:
-          "./public/EasyHair.png",
+          "/EasyHair.png",
         tech: ["HTML5", "CSS3", "JavaScript", "MongoDB", "Express", "React","Axios"],
         github: "https://github.com/Miguelcds/Easyhairbooking.git",
         link: "#",
