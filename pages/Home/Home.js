@@ -12,7 +12,7 @@ export const Home = () => {
           <span class="hero-tag">Desarrollador Web Full Stack</span>
           <h1>Joao Miguel<br>Costa Da Silva</h1>
           <p class="hero-desc">
-            Proxima Graduacion en DAW con experiencia práctica desallorada en <strong>Mercanza</strong>.
+            Estudiante  en DAW, desarrollando experiencia en <strong>Mercanza</strong>.
             Creo interfaces web modernas, responsive y eficientes con tecnologías actuales.
           </p>
           <div class="hero-cta">
@@ -42,6 +42,7 @@ export const Home = () => {
             <div class="carousel-item" style="--glow:#646cff"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite" /><span>Vite</span></div>
             <div class="carousel-item" style="--glow:#47a248"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" /><span>MongoDB</span></div>
             <div class="carousel-item" style="--glow:#f89820"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" /><span>Java</span></div>
+            <div class="carousel-item" style="--glow:#3776ab"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" /><span>Python</span></div> 
             <!-- Duplicado para loop infinito -->
             <div class="carousel-item" style="--glow:#e34f26"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" /><span>HTML5</span></div>
             <div class="carousel-item" style="--glow:#1572b6"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" /><span>CSS3</span></div>
@@ -54,6 +55,8 @@ export const Home = () => {
             <div class="carousel-item" style="--glow:#646cff"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" alt="Vite" /><span>Vite</span></div>
             <div class="carousel-item" style="--glow:#47a248"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" /><span>MongoDB</span></div>
             <div class="carousel-item" style="--glow:#f89820"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" /><span>Java</span></div>
+            <div class="carousel-item" style="--glow:#3776ab"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" /><span>Python</span></div>
+            
           </div>
         </div>
       </div>
@@ -62,7 +65,7 @@ export const Home = () => {
         <div class="about-text">
           <p class="section-label">Sobre mí</p>
           <h2>Pasión por el desarrollo web</h2>
-          <p>Desarrollador web recién graduado en DAW, actualmente realizando prácticas en <strong>Mercanza</strong>. Me especializo en frontend moderno con React, con conocimientos solidos en backend y bases de datos.</p>
+          <p>Desarrollador web finalizando CFGS en DAW, actualmente realizando prácticas en <strong>Mercanza</strong>. Me especializo en frontend moderno con React, con conocimientos sólidos en backend, datos y visualización.</p>
           <p>Orientado a escribir código limpio, accesible y escalable. Siempre aprendiendo y aplicando nuevas tecnologías en proyectos reales.</p>
           <div class="languages">
             <span class="lang-badge">🇪🇸 Español</span>
@@ -72,7 +75,7 @@ export const Home = () => {
         </div>
         <div class="about-experience">
           <div class="exp-card">
-            <span class="exp-year">2026</span>
+            <span class="exp-year">2025 – Actualidad</span>
             <h4>Prácticas en Mercanza</h4>
             <p>Desarrollo web en entorno profesional real</p>
             <p>Procesamiento y limpieza de datos mediante Python y librerías como Pandas
@@ -82,11 +85,11 @@ export const Home = () => {
             <p>Análisis de datos para obtención de insights</p>
           </div>
           <div class="exp-card">
-            <span class="exp-year">2024 – 2026</span>
+            <span class="exp-year">2024 – Actualidad</span>
             <h4>DAW – Desarrollo de Aplicaciones Web</h4>
           </div>
           <div class="exp-card">
-            <span class="exp-year">2024 – 2026</span>
+            <span class="exp-year">2024 – Actualidad</span>
             <h4>Master - Full Stack Developer</h4>
             <p>Desarrollo web focalizado a tener unas bases sólidas en JavaScript, HTML y CSS</p>
             <p>Tambien en Entornos como React y TypeScript</p>

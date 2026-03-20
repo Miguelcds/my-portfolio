@@ -10,7 +10,7 @@ export const projects = [
       },
       {
         title: "Asignador de Zonas - Bilbao",
-        description: "Desarrollada en mis ratos libres, fue la mejor idea que tuve para poder quitarme la tediosa tarea de asignar las calles por zonas de un exel, facilitando asi muchas de mis tareas. Es una Aplicación web progresiva (PWA) que procesa archivos Excel con listados de calles y les asigna automáticamente su zona en Bilbao",
+        description: "PWA que procesa archivos Excel y asigna automáticamente zonas de Bilbao. Nació de una necesidad real en uno de mis anteriores trabajos",
         image:
           "./public/PAW.png",
         tech: ["HTML5", "CSS3", "JavaScript"],
@@ -22,7 +22,7 @@ export const projects = [
         description: "Aplicación web desarrollada con React y Vite para consultar y organizar eventos del centro: charlas, torneos, talleres y excursiones.",
         image:
           "./public/EventsWeb.png",
-        tech: ["HTML5", "CSS3", "JavaScript"],
+        tech: ["HTML5", "CSS3", "JavaScript", "React"],
         github: "https://github.com/Miguelcds/Web_Eventos.git",
         link: "https://eventos-by-jcosta.netlify.app/",
       },
@@ -39,18 +39,18 @@ export const projects = [
         title: "Backend Api Rest",
         description: "API REST desarrollada con Node.js, Express y MongoDB. Permite gestionar canciones con operaciones CRUD completas y arquitectura backend escalable.",
         image:
-          "https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=80",
-        tech: ["HTML5", "CSS3", "JavaScript", "MongoDB", "Express"],
+          "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=60",
+        tech: ["JavaScript", "MongoDB", "Express"],
         github: "https://github.com/Miguelcds/Backend_Api_Songs.git",
         link: "#",
       },
       {
         title: "Easy Hair Booking",
-        description: "Mi mayor Proyecto Hasta el momento, de momento esta en desarrollo, puedes realizar un seguimiento en mi git y darme ideas para implementar",
+        description: "Sistema de reservas de peluquería full stack en desarrollo activo. Puedes seguir el progreso en GitHub.",
         image:
-          "https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3387&q=82",
-        tech: ["HTML5", "CSS3", "JavaScript", "MongoDB", "Express"],
-        github: "https://github.com/Miguelcds/Backend_Api_Songs.git",
+          "./public/EasyHair.png",
+        tech: ["HTML5", "CSS3", "JavaScript", "MongoDB", "Express", "React","Axios"],
+        github: "https://github.com/Miguelcds/Easyhairbooking.git",
         link: "#",
       },
 ];
