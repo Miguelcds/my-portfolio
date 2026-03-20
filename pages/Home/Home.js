@@ -14,3 +14,4 @@ export const Home = () => {
     <a href="mailto:miguel-cds@hotmail.com">Escribeme! → ✉️</a>
     </section>`;
 };
+ 
