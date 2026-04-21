@@ -46,11 +46,11 @@ export const projects = [
       },
       {
         title: "Easy Hair Booking",
-        description: "Sistema de reservas de peluquería full stack en desarrollo activo. Puedes seguir el progreso en GitHub.",
+        description: "Sistema web completo de gestión y reserva de citas para peluquería. Desarrollado con React, Node.js, Express y MongoDB. Incluye autenticación JWT con httpOnly cookies, reservas atómicas, panel de administración y despliegue en producción.",
         image:
           "/EasyHair.png",
-        tech: ["HTML5", "CSS3", "JavaScript", "MongoDB", "Express", "React","Axios"],
+        tech: ["HTML5","CSS3","JavaScript","React","Vite","React Router","React Hook Form","Context API","Axios","Node.js","Express","MongoDB","Mongoose","JWT","bcrypt","CORS","Netlify","Render"],
         github: "https://github.com/Miguelcds/Easyhairbooking.git",
-        link: "#",
+        link: "https://easyhairbooking.netlify.app/",
       },
 ];
