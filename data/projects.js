@@ -1,5 +1,14 @@
 export const projects = [
     {
+        title: "Easy Hair Booking",
+        description: "Sistema web completo de gestión y reserva de citas para peluquería. Desarrollado con React, Node.js, Express y MongoDB. Incluye autenticación JWT con httpOnly cookies, reservas atómicas, panel de administración y despliegue en producción.",
+        image:
+          "/EasyHair.png",
+        tech: ["HTML5","CSS3","JavaScript","React","Vite","React Router","React Hook Form","Context API","Axios","Node.js","Express","MongoDB","Mongoose","JWT","bcrypt","CORS","Netlify","Render"],
+        github: "https://github.com/Miguelcds/Easyhairbooking.git",
+        link: "https://easyhairbooking.netlify.app/",
+      },
+      {
         title: "Recipe Hub",
         description: "Aplicación de recetas con React, consumo de TheMealDB API, favoritos con localStorage y diseño responsive",
         image:
@@ -42,15 +51,6 @@ export const projects = [
           "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=60",
         tech: ["JavaScript", "MongoDB", "Express"],
         github: "https://github.com/Miguelcds/Backend_Api_Songs.git",
-        link: "#",
-      },
-      {
-        title: "Easy Hair Booking",
-        description: "Sistema de reservas de peluquería full stack en desarrollo activo. Puedes seguir el progreso en GitHub.",
-        image:
-          "/EasyHair.png",
-        tech: ["HTML5", "CSS3", "JavaScript", "MongoDB", "Express", "React","Axios"],
-        github: "https://github.com/Miguelcds/Easyhairbooking.git",
         link: "#",
       },
 ];
