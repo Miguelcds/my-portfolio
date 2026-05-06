@@ -1,4 +1,5 @@
 import './style.css';
+import { inject } from '@vercel/analytics';
 import { changeTheme } from "./components/Navbar/Navbar";
 import { linkPage } from "./utils/linkPage";
 import { Navbar } from "./components/Navbar/Navbar";
@@ -22,3 +23,5 @@ Home();
 changeTheme();
 
 footer.insertAdjacentHTML("beforebegin", Divider());
+
+inject();
