@@ -12,7 +12,7 @@ export const Home = () => {
           <span class="hero-tag">Desarrollador Web Full Stack</span>
           <h1>Joao Miguel<br>Costa Da Silva</h1>
           <p class="hero-desc">
-            Graduado en DAW, con formacion y proyectos realizados para <strong>Mercanza</strong>.
+            Graduado en DAW, con formacion y proyectos realizados en <strong>Mercanza</strong>.
             Creo interfaces web modernas, responsive y eficientes con tecnologías actuales.
           </p>
           <div class="hero-cta">
